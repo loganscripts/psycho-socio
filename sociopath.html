@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sociopath - MindMate</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="particles-js"></div>
+
+  <nav id="navbar" role="navigation" aria-label="Main navigation">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="psychopath.html">Psychopath</a></li>
+      <li><a href="sociopath.html" class="active">Sociopath</a></li>
+      <li><a href="comparison.html">Comparison</a></li>
+      <li><a href="quiz.html">Quiz</a></li>
+      <li><a href="sources.html">Sources</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+    <div class="toggle-buttons">
+      <button id="lang-toggle" aria-label="Toggle language">EN/РУ</button>
+      <button id="voice-toggle" aria-label="Toggle voice narration">🔈</button>
+      <button id="theme-toggle" aria-label="Toggle dark/light theme">🌙</button>
+    </div>
+  </nav>
+
+  <main class="container" role="main">
+    <h1>Sociopath</h1>
+
+    <section id="intro">
+      <h2>What is a Sociopath?</h2>
+      <p>
+        Sociopathy, often linked with Antisocial Personality Disorder (ASPD), is a chronic mental condition characterized by a disregard for social norms, impulsive behavior, and difficulty forming genuine emotional attachments. Unlike psychopaths, sociopaths tend to be more erratic and prone to emotional outbursts.
+      </p>
+    </section>
+
+    <section id="signs">
+      <h2>Common Signs of Sociopathy</h2>
+      <ul>
+        <li>Impulsive and reckless behavior</li>
+        <li>Difficulty forming long-term relationships</li>
+        <li>Lack of remorse or guilt for harmful actions</li>
+        <li>Manipulative tendencies</li>
+        <li>Disregard for laws and social rules</li>
+        <li>Emotional volatility and aggression</li>
+      </ul>
+    </section>
+
+    <section id="myths">
+      <h2>Myths About Sociopathy</h2>
+      <ul>
+        <li><strong>Myth:</strong> All sociopaths are violent criminals.<br />
+          <em>Fact:</em> Many sociopaths do not engage in violent acts and can live undetected in society.</li>
+        <li><strong>Myth:</strong> Sociopathy is the same as psychopathy.<br />
+          <em>Fact:</em> While related, sociopathy and psychopathy differ in origins, behavior, and emotional traits.</li>
+        <li><strong>Myth:</strong> Sociopaths cannot form any emotional bonds.<br />
+          <em>Fact:</em> Sociopaths may form attachments, though often shallow or dysfunctional.</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <button id="chatbot-toggle" aria-label="Toggle MindMate chatbot" aria-expanded="false" aria-controls="chatbot-panel">🧠</button>
+
+  <section id="chatbot-panel" hidden aria-live="polite" aria-atomic="true" role="region" aria-label="MindMate chatbot">
+    <button id="chatbot-close" aria-label="Close chatbot panel">×</button>
+    <div id="chatbot-messages" tabindex="0"></div>
+    <form id="chatbot-form" role="search" aria-label="Chat with MindMate">
+      <input id="chatbot-input" type="text" autocomplete="off" placeholder="Ask MindMate..." aria-required="true" />
+      <button id="chatbot-submit" type="submit" aria-label="Send message">Send</button>
+    </form>
+  </section>
+
+  <script src="js/particles.min.js"></script>
+  <script src="js/particles-config.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

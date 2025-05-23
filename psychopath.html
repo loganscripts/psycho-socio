@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Psychopath - Psychology Insight Hub</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="particles-js"></div>
+
+  <nav id="navbar" role="navigation" aria-label="Main navigation">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="psychopath.html" class="active">Psychopath</a></li>
+      <li><a href="sociopath.html">Sociopath</a></li>
+      <li><a href="comparison.html">Comparison</a></li>
+      <li><a href="quiz.html">Quiz</a></li>
+      <li><a href="sources.html">Sources</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+    <div class="toggle-buttons">
+      <button id="lang-toggle" aria-label="Toggle language">EN/РУ</button>
+      <button id="voice-toggle" aria-label="Toggle voice narration">🔈</button>
+      <button id="theme-toggle" aria-label="Toggle dark/light theme">🌙</button>
+    </div>
+  </nav>
+
+  <main class="container" role="main">
+    <h1>Psychopath</h1>
+    <section>
+      <h2>What is a Psychopath?</h2>
+      <p>Psychopathy is a personality disorder characterized by persistent antisocial behavior, impaired empathy and remorse, and bold, disinhibited, and egotistical traits.</p>
+    </section>
+    <section>
+      <h2>Signs of a Psychopath</h2>
+      <ul>
+        <li>Lack of empathy or remorse</li>
+        <li>Superficial charm and manipulativeness</li>
+        <li>Impulsive and reckless behavior</li>
+        <li>Grandiose sense of self-worth</li>
+        < (add more content here)</p>
+      <h3>Key Traits</h3>
+      <ul>
+        <li>Superficial charm</li>
+        <li>Lack of empathy and remorse</li>
+        <li>Manipulative behavior</li>
+        <li>Impulsivity and irresponsibility</li>
+      </ul>
+      <!-- Add more detailed paragraphs and bullet points -->
+    </section>
+  </main>
+
+  <button id="chatbot-toggle" aria-label="Toggle MindMate chatbot" aria-expanded="false" aria-controls="chatbot-panel">🧠</button>
+
+  <section id="chatbot-panel" hidden aria-live="polite" aria-atomic="true" role="region" aria-label="MindMate chatbot">
+    <button id="chatbot-close" aria-label="Close chatbot panel">×</button>
+    <div id="chatbot-messages" tabindex="0"></div>
+    <form id="chatbot-form" role="search" aria-label="Chat with MindMate">
+      <input id="chatbot-input" type="text" autocomplete="off" placeholder="Ask MindMate..." aria-required="true" />
+      <button id="chatbot-submit" type="submit" aria-label="Send message">Send</button>
+    </form>
+  </section>
+
+  <script src="js/particles.min.js"></script>
+  <script src="js/particles-config.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

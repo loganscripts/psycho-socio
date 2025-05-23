@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About MindMate</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="particles-js"></div>
+
+  <nav id="navbar" role="navigation" aria-label="Main navigation">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="psychopath.html">Psychopath</a></li>
+      <li><a href="sociopath.html">Sociopath</a></li>
+      <li><a href="comparison.html">Comparison</a></li>
+      <li><a href="quiz.html">Quiz</a></li>
+      <li><a href="sources.html">Sources</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+    </ul>
+    <div class="toggle-buttons">
+      <button id="lang-toggle" aria-label="Toggle language">EN/РУ</button>
+      <button id="voice-toggle" aria-label="Toggle voice narration">🔈</button>
+      <button id="theme-toggle" aria-label="Toggle dark/light theme">🌙</button>
+    </div>
+  </nav>
+
+  <main class="container" role="main">
+    <h1>About MindMate</h1>
+    <p>MindMate is your friendly, calm, and clever chatbot assistant designed to help you learn about the differences between psychopaths and sociopaths in a clear, approachable way. It supports English and Russian languages, voice narration, and a sleek, dark-themed interface to make your experience smooth and enjoyable.</p>
+    <p>Developed with accessibility and user comfort in mind, MindMate offers interactive features including quizzes, voice narration toggles, and a floating chatbot panel for instant help and guidance.</p>
+  </main>
+
+  <button id="chatbot-toggle" aria-label="Toggle MindMate chatbot" aria-expanded="false" aria-controls="chatbot-panel">🧠</button>
+
+  <section id="chatbot-panel" hidden aria-live="polite" aria-atomic="true" role="region" aria-label="MindMate chatbot">
+    <button id="chatbot-close" aria-label="Close chatbot panel">×</button>
+    <div id="chatbot-messages" tabindex="0"></div>
+    <form id="chatbot-form" role="search" aria-label="Chat with MindMate">
+      <input id="chatbot-input" type="text" autocomplete="off" placeholder="Ask MindMate..." aria-required="true" />
+      <button id="chatbot-submit" type="submit" aria-label="Send message">Send</button>
+    </form>
+  </section>
+
+  <script src="js/particles.min.js"></script>
+  <script src="js/particles-config.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
