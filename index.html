@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Psychopath vs Sociopath</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0d0d0d;
+      --text: #eaeaea;
+      --accent: #ff007a;
+      --highlight: #00ffe7;
+      --fade: #222;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: 'Inter', sans-serif;
+      line-height: 1.8;
+      overflow-x: hidden;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px 20px;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 3rem;
+      color: var(--accent);
+      animation: fadeInDown 1.2s ease-out forwards;
+    }
+
+    main {
+      max-width: 900px;
+      margin: auto;
+      padding: 30px;
+      animation: fadeInUp 1.5s ease-in-out;
+    }
+
+    section {
+      margin-bottom: 50px;
+      background: var(--fade);
+      border-radius: 12px;
+      padding: 30px;
+      box-shadow: 0 0 25px rgba(255, 0, 122, 0.15);
+      transition: transform 0.3s ease;
+    }
+
+    section:hover {
+      transform: scale(1.02);
+    }
+
+    h2 {
+      font-size: 2rem;
+      color: var(--highlight);
+      margin-bottom: 15px;
+    }
+
+    ul {
+      list-style: square inside;
+      padding-left: 0;
+    }
+
+    li {
+      margin: 10px 0;
+    }
+
+    p {
+      margin-top: 25px;
+      font-size: 1.1rem;
+    }
+
+    .tagline {
+      color: var(--accent);
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+
+    @keyframes fadeInDown {
+      0% { transform: translateY(-40px); opacity: 0; }
+      100% { transform: translateY(0); opacity: 1; }
+    }
+
+    @keyframes fadeInUp {
+      0% { transform: translateY(40px); opacity: 0; }
+      100% { transform: translateY(0); opacity: 1; }
+    }
+
+    @media (max-width: 600px) {
+      header {
+        font-size: 2rem;
+        padding-top: 40px;
+      }
+
+      main {
+        padding: 20px;
+      }
+
+      section {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>Psychopath vs. Sociopath</header>
+
+  <main>
+    <section>
+      <h2>Psychopath</h2>
+      <ul>
+        <li>Highly manipulative, often charming</li>
+        <li>No empathy or guilt</li>
+        <li>Usually planned and controlled behavior</li>
+        <li>Can maintain a normal life</li>
+        <li>Extremely dangerous in secret</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Sociopath</h2>
+      <ul>
+        <li>Impulsive and erratic behavior</li>
+        <li>May feel guilt or remorse occasionally</li>
+        <li>More emotional outbursts</li>
+        <li>Difficulty forming long-term relationships</li>
+        <li>Often caught due to reckless actions</li>
+      </ul>
+    </section>
+
+    <p class="tagline">💡 Psychopaths are cold planners. Sociopaths are hot reactors.</p>
+  </main>
+
+</body>
+</html>
